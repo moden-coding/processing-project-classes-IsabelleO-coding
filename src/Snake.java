@@ -5,15 +5,15 @@ import processing.core.PImage;
 
 public class Snake {
     private PApplet canvas;
-    PImage Snake;
-    int width;
+    private PImage Snake;
+    private int width;
     private int x;
     private int y;
     private int Swidth;
     private int Sheight;
     private int speed;
     private int Sdirection;
-    ArrayList<Snake> snakes;
+    private ArrayList<Snake> snakes;
 
     public Snake(int Xcorr, int Ycorr, PApplet c, ArrayList<Snake> s, int direction) { // sets up snake variables and everything it needs to access
         x = Xcorr;

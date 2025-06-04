@@ -3,12 +3,12 @@ import processing.core.PImage;
 
 public class IndianaJones {
     private PApplet canvas;
-    PImage indianaJones;
-    PApplet parent;
-    int x;
-    int y;
-    int Jwidth;
-    int Jheight;
+    private PImage indianaJones;
+    private PApplet parent;
+    private int x;
+    private int y;
+    private int Jwidth;
+    private int Jheight;
 
     public IndianaJones(int Xcorr, int Ycorr, int w, int h, PApplet c, PApplet p) { // sets up all the variables and image for indianajones
         canvas = c;

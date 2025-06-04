@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
 public class Boulder {
-    int width;
+    private int width;
     private PApplet canvas;
     private int x;
     private int y;

@@ -11,7 +11,7 @@ public class Spike {
     private int color;
     private int size;
     private Timer timerClass = new Timer();
-    ArrayList<Spike> spikes;
+    private ArrayList<Spike> spikes;
 
     public Spike(int Xcorr, int Ycorr, PApplet c, ArrayList<Spike> s) { // sets up all variables for spike and what it needs to access
         spikes = s;
